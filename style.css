@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  border-radius: 20px;
+  border: 3px solid;
+  text-decoration: none;
+  width: 100px;
+  padding: 10px;
+
+}
+
+a:hover {
+  color: orange;
+}
+
+body {
+  background-color: #138086;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 40px 20px 40px 40px;
+}
+
+h1 {
+  color: orange;
+}
+
+.meet-me {
+  color: #062628;
+  font-size: 40px;
+}
+
+#about {
+  margin-right: 170px;
+  margin-left: 170px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  background-color: #062628;
+  border-radius: 20px;
+  text-align: justify;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+
+#about-text {
+  flex: 1;
+  padding-right: 40px;
+
+}
+
+img {
+  border: 2px solid orange;
+  border-radius: 100%;
+}
+
+#about-image {
+  flex: 1;
+  width: 500px;
+
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  /* margin: 50px; */
+  background-color: rgba(255, 166, 0, 256);
+  border-radius: 40px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  gap: 100px;
+  border: 1000px;
+  height: 500px;
+}
+
+.about {
+  flex: 1;
+  padding-right: 20px;
+  color: black;
+  text-align: justify;
+  justify-content: center;
+
+}
+
+.me {
+
+  padding-left: 50px;
+  font-size: 80px;
+
+}
+
+h3 {
+  text-align: left;
+  font-size: 25px;
+}
+
+.dev {
+  color: #138086;
+}
+
+.skills {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin: 100px;
+
+}
+
+
+.branch-one {
+  flex: 1;
+  color: #062628;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  margin-left: 0px;
+  border-top: 5px;
+}
+
+.branch-two {
+  flex: 1;
+  color: #062628;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 40PX;
+  margin: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  margin-left: 0px;
+}
+
+.parent-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin: 100px;
+
+}
+
+.data-one {
+  flex: 1;
+  color: #062628;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  margin-left: 0px;
+  border-top: 5px;
+}
+
+.data-two {
+  flex: 1;
+  color: #062628;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 40PX;
+  margin: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  margin-left: 0px;
+
+}
+
+.front {
+  color: orange;
+  font-size: 30px;
+}
+
+.back {
+  color: orange;
+  font-size: 30px;
+}
+
+.data {
+  color: orange;
+  font-size: 30px;
+
+}
+
+.version {
+  color: orange;
+  font-size: 30px;
+}
+
+
+
+.connect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 40px;
+  margin-right: 260px;
+  margin-left: 260px;
+  margin-top: 70px;
+  gap: 100px;
+  border: 1000px;
+  height: 450px;
+  text-align: justify;
+  color: #062628;
+
+}
+
+.contact {
+  color: #062628;
+  font-size: 45px;
+  text-align: left;
+
+}
+
+.call-one {
+  color: orange;
+  font-size: 20px;
+}
+
+.call-one:hover {
+  color: #062628;
+}
+
+.call {
+  color: #062628;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+.detail {
+  font-size: 40px;
+  color: #062628;
+}
+
+.location {
+  font-size: 35px;
+}
