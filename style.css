@@ -35,9 +35,9 @@ h1 {
 
 #about {
   display: flex;
-  text-align: justify;
+  /* text-align: justify; */
   justify-content: space-between;
-  padding: 5%;
+  padding: 10% 5%;
   margin: 20px 5% 60px 5%;
   background-color: #062628;
   border-radius: 20px;
@@ -45,11 +45,11 @@ h1 {
 }
 
 #about-text {
-  width: 70%;
+  /* width: 70%; */
 }
 
 #about-image {
-  width: 30%;
+  /* width: 30%; */
   border-bottom: 10%;
   text-align: center;
 }
@@ -65,7 +65,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2px 10px;
+  margin: 2px 5%;
   padding: 5%;
   background-color: rgba(255, 166, 0, 256);
   border-radius: 40px;
@@ -103,13 +103,12 @@ h3 {
 
 .parent {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding: 50px;
-  /* margin: auto; */
-  /* margin: 100px; */
+  margin: 5px 5% 80px;
+
 
 }
 
@@ -122,36 +121,11 @@ h3 {
   padding: 20px;
   height: 350px;
   width: 280px;
-  /* padding: 40px;
-  margin: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 80px;
-  margin-left: 0px;
-  border-top: 5px; */
+ 
 }
 
-/* .branch-two {
-  flex: 1;
-  color: #062628;
-  background-color: aliceblue;
-  border-radius: 10px;
-  padding: 40PX;
-  margin: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 80px;
-  margin-left: 0px;
-} */
 
-/* .parent-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  margin: 100px;
 
-} */
 
 .data-one {
   flex: 1;
@@ -161,28 +135,10 @@ h3 {
   padding: 40px;
   height: 350px;
   width: 700px;
-  /* padding: 40px;
-  margin: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 80px;
-  margin-left: 0px;
-  border-top: 5px; */
+  
 }
 
-/* .data-two {
-  flex: 1;
-  color: #062628;
-  background-color: aliceblue;
-  border-radius: 10px;
-  padding: 40PX;
-  margin: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 80px;
-  margin-left: 0px;
 
-} */
 
 .front {
   color: orange;
@@ -212,15 +168,16 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 60px;
   background-color: white;
   border-radius: 40px;
+  margin: 20px 40px 90px;
   /* margin-right: 260px;
   margin-left: 260px;
   margin-top: 70px; */
   gap: 100px;
-  border: 1000px;
-  /* height: 450px; */
+  /* border: 1000px; */
+  /* height: 450px;  */
   text-align: justify;
   color: #062628;
 
