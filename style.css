@@ -35,7 +35,6 @@ h1 {
 
 #about {
   display: flex;
-  /* text-align: justify; */
   justify-content: space-between;
   padding: 10% 5%;
   margin: 20px 5% 60px 5%;
@@ -44,12 +43,8 @@ h1 {
   gap: 150px;
 }
 
-#about-text {
-  /* width: 70%; */
-}
 
 #about-image {
-  /* width: 30%; */
   border-bottom: 10%;
   text-align: center;
 }
@@ -121,7 +116,7 @@ h3 {
   padding: 20px;
   height: 350px;
   width: 280px;
- 
+
 }
 
 
@@ -135,7 +130,7 @@ h3 {
   padding: 40px;
   height: 350px;
   width: 700px;
-  
+
 }
 
 
@@ -172,12 +167,7 @@ h3 {
   background-color: white;
   border-radius: 40px;
   margin: 20px 40px 90px;
-  /* margin-right: 260px;
-  margin-left: 260px;
-  margin-top: 70px; */
   gap: 100px;
-  /* border: 1000px; */
-  /* height: 450px;  */
   text-align: justify;
   color: #062628;
 

@@ -100,8 +100,7 @@
   }
 }
 
-@media (min-width: 481PX) and (max-width:768PX) 
-  {
+@media (min-width: 481PX) and (max-width:768PX) {
   #about {
     margin: auto;
     border-radius: 0px;
